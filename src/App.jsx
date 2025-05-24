@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const BACKEND_URL = "https://back-robot-arduino.onrender.com";
+const BACKEND_URL = "https://back-robot-arduino.vercel.app";
 
 export const App = () => {
   const [temperatura, setTemperatura] = useState(null);
